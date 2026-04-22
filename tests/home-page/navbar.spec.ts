@@ -12,5 +12,5 @@ test('Check navbar elements', async ({ page }) => {
   const logoBox = await logo.boundingBox();
   const searchBoxBox = await searchBox.boundingBox();
 
-  expect(logoBox?.x).toBeLessThan(searchBoxBox?.x); // logo left side ✅
+  expect(logoBox?.x).toBeLessThan(searchBoxBox?.x); // logo left side 
 });
