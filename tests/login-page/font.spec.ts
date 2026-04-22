@@ -13,5 +13,5 @@ test('Check search box font size', async ({ page }) => {
 
   console.log('Font size:', fontSize);
 
-  expect(fontSize).toBeTruthy(); // flexible check ✅
+  expect(fontSize).toBeTruthy(); // flexible check 
 });
