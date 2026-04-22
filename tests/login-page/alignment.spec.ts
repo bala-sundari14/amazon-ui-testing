@@ -15,5 +15,5 @@ test('Check alignment of search box and button', async ({ page }) => {
   // Allow small difference (tolerance)
   const difference = Math.abs((box1?.y ?? 0) - (box2?.y ?? 0));
 
-  expect(difference).toBeLessThan(5); // ✅ allow small pixel difference
+  expect(difference).toBeLessThan(5); //  allow small pixel difference
 });
